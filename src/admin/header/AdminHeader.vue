@@ -61,7 +61,7 @@ export default defineComponent({
 {id:1, title: 'Settings', icon: 'pi pi-cog'},
 {id:2, title: 'Logout', icon: 'pi pi-sign-out'},
   ])
-    const showInfo = ref(true);
+    const showInfo = ref(false);
 
     const hideUserInfo = () => {
       showInfo.value = false
