@@ -47,12 +47,11 @@ export default defineComponent({
       chart: {
         id: "vuechart-example",
         toolbar: {
-          show: false, // Hides the chart toolbar
+          show: false, 
         },
       },
       fill: {
         colors: ["#EA580C", "#FFFF00", "#00FF00", "#0000FF", "#4B0082"],
-        // Rainbow-like colors: Red, Orange, Yellow, Green, Blue, Indigo
       },
 
       xaxis: {
