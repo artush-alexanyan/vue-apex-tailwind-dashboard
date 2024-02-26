@@ -34,7 +34,7 @@
                 <ul class="flex flex-col">
                   <li
                     @click="changeList(index)"
-                    class="px-6 py-2 my-2 rounded-lg text-lg cursor-pointer flex items-center transition duration-500"
+                    class="px-6 py-2 my-2 rounded-lg text-lg cursor-pointer flex items-center transition duration-150"
                     :class="
                       item.id === currentList
                         ? 'bg-slate-800 text-white'
